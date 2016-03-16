@@ -3,6 +3,6 @@
 
 ## Component List
 
-#### Browser Container 
+#### Browser Container
 
 ![browser container html_component](https://raw.github.com/joegesualdo/html-css-components/master/browser-container.png)
