@@ -1,0 +1,83 @@
+/* Palette  */
+/* $green: #B9E8BB; */
+/* $dark-gray: #404040; */
+/* $gray: #666666; */
+/* $white: #D6D6D6; */
+/* $cayan: #75D4D6; */
+/* $magenta: #D7ACD6; */
+/* $blue: #78AAD6; */
+/* $yellow: #FFD479; */
+/* $red: #F78D8C; */
+
+/*FONT SIZE  */
+/* $termster-font-size: 16px; */
+
+.terminal-simulator {
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+  position: relative;
+  background: #404040;
+  color: #e8e8e8;
+  padding: 1.25rem;
+  font-family: "Droid Sans Mono", monospace;
+  font-weight: 400;
+  box-shadow: 0 0 1em rgba(0,0,0,0.25);
+  border-radius: 3px;
+  overflow: auto;
+}
+
+.terminal-simulator_line {
+  word-wrap: break-word;
+  border-radius: 3px;
+
+  display: block;
+  color: #e8e8e8;
+  border-radius: 3px;
+  padding: 1em;
+
+  color: #e8e8e8;
+  padding: 0;
+  display: block;
+  white-space: nowrap;
+}
+
+
+.terminal-simulator_line_content {
+  display: inline-block;
+  font-size: 0;
+}
+.terminal-simulator_line_content_prompt {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #666666;
+  display: inline-block;
+}
+.terminal-simulator_line_content_prompt_sequence {
+  display: inline-block;
+  margin: 0 6px 0 0;
+  text-align: center;
+}
+.terminal-simulator_line_content_prompt_sequence_char {
+  display: inline-block;
+  font-size: 16px;
+  padding: 0 .2px;
+  text-align: center;
+}
+
+.terminal-simulator_line_content_sequence {
+  display: inline-block;
+  margin: 0 6px 0 0;
+  text-align: center;
+}
+
+
+.terminal-simulator_line_content_sequence_char {
+  display: inline-block;
+  font-size: 16px;
+  padding: 0 .2px;
+  text-align: center;
+}
+
