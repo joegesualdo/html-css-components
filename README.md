@@ -9,4 +9,4 @@
 
 #### Terminal
 
-![browser container html_component](https://raw.github.com/joegesualdo/html-css-components/master/terminal.png)
+![terminal html_component](https://raw.github.com/joegesualdo/html-css-components/master/terminal.png)
